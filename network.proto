@@ -1,0 +1,8 @@
+option java_package = "gr.uoa.di.dsg.communicator.netty";
+option java_outer_classname = "NetworkMsgWrapper";
+
+message NetworkMessage
+{
+	required int32 msgType = 1;
+	required bytes actualMesasge = 2;
+}
